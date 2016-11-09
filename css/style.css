@@ -1,0 +1,129 @@
+/*..........
+custom style sheet for kinlab website
+created by students at minneapolis
+community and technical college.
+portfolio and class project,
+not for personal use.
+..........*/
+
+/*..........IMPORTS AND FONTS..........*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto+Slab:300,400,700|Poppins');
+
+/*..........COLORS..........*/
+/*..........#ED811E Orange..........*/
+/*..........#1E439B Cerulean Blue..........*/
+/*..........#D7E4EB Light Blue..........*/
+
+/*..........BODY ELEMENTS..........*/
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+header {
+    background: #1E439B;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+/*..........TEXT ELEMENTS..........*/
+
+h1 {
+    font-family: "Roboto Slab", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+    color: #1E439B;
+    text-transform: lowercase;
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+h2 {
+    font-size: 3.1rem;
+}
+h3, h4 {
+    font-size: 2.6rem;
+}
+
+/*..........NAVIGATION ELEMENTS..........*/
+a, a:link, a:visited {
+    color: #ED811E;
+    text-decoration: underline;
+}
+a:hover, a:focus, a:active {
+    color: #000;
+    text-decoration: underline;
+}
+
+.main-navigation {
+    float: left;
+    width: 100%;
+    margin: 1rem auto;
+    height: 50px;
+}
+.main-navigation > li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.main-navigation > li > a {
+    padding: 18px 25px;
+    text-decoration: none;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    text-transform: lowercase;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.main-navigation > li:hover > a,
+.main-navigation > li:focus > a,
+.main-navigation > li:active > a {
+    background: rgba(0,0,0,.2);
+}
+.main-navigation li .sub-navigation {
+    display: none;
+}
+.main-navigation li.submenu:hover .sub-navigation {
+    display: block;
+    /*background-color: inherit;*/
+}
+.sub-navigation {
+    position: absolute;
+    background-color: #0FA0CE;
+    float: left;
+    margin-left: 0;
+    padding: 0 10px;
+    width: 200px;
+    z-index: 5;
+}
+.sub-navigation > li {
+    display: block;
+    float: left;
+    padding: 10px 0;
+    margin: 0;
+     width: 100%;
+}
+.sub-navigation > li > a {
+    text-decoration: none;
+    width: 100%;
+    display: block;
+}
+
+/*..........CUSTOM ELEMENTS..........*/
+
+/*..........SKELETON MODIFICATIONS..........*/
+
+/*..........MEDIA QUERIES..........*/
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
