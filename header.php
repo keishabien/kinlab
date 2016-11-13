@@ -7,10 +7,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-procedure.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script> 
 </head>
 <body>
 
@@ -18,13 +21,13 @@
     <div class="container">
         <div class="row">
             <div class="two columns">
-                <img src="images/logowhite.png" alt="kinlab logo" class="u-max-full-width">
+                <img src="images/logo.png" alt="kinlab logo" class="u-max-full-width">
             </div>
 
             <nav class="navigation ten columns">
                 <a href="#" class="menu-icon">
-                    <i class="fa fa-bars"></i>
-                </a>
+<!--                     <i class="fa fa-bars"></i>
+ -->                </a>
                 <ul class="main-navigation">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Mission</a></li>

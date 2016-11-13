@@ -15,9 +15,15 @@ not for personal use.
 /*..........#D7E4EB Light Blue..........*/
 
 /*..........BODY ELEMENTS..........*/
+html{
+    cursor: default;
+}
+
 body {
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 }
+
+
 
 header {
     background: #1E439B;
