@@ -1,1 +1,55 @@
-.procedure{padding-top:35px}form{background-color:#D7E4EB;padding:2%;border-radius:20px;height:100%}@media screen and (max-width: 680px){form{background-color:#fff;padding:0;border-radius:20px}}select{width:100%}.button.kinlab-button,button.kinlab-button,input[type="submit"].kinlab-button,input[type="reset"].kinlab-button,input[type="button"].kinlab-button{color:#FFF;background-color:#1E439B;border-color:#1E439B}.button.kinlab-button:hover,button.kinlab-button:hover,input[type="submit"].kinlab-button:hover,input[type="reset"].kinlab-button:hover,input[type="button"].kinlab-button:hover,.button.kinlab-button:focus,button.kinlab-button:focus,input[type="submit"].kinlab-button:focus,input[type="reset"].kinlab-button:focus,input[type="button"].kinlab-button:focus{color:#FFF;background-color:#ED811E;border-color:#ED811E}#steps h1{color:#ED811E;font-weight:400}#steps a{text-decoration:none}#steps p{color:#1E439B}.form-jump{text-align:right}.form-jump a{font-weight:700}
+.procedure {
+    padding-top: 35px
+}
+
+form {
+    background-color: #D7E4EB;
+    padding: 2%;
+    border-radius: 20px;
+    height: 100%
+}
+
+@media screen and (max-width: 680px) {
+    form {
+        background-color: #fff;
+        padding: 0;
+        border-radius: 20px
+    }
+}
+
+select {
+    width: 100%
+}
+
+.button.kinlab-button, button.kinlab-button, input[type="submit"].kinlab-button, input[type="reset"].kinlab-button, input[type="button"].kinlab-button {
+    color: #FFF;
+    background-color: #1E439B;
+    border-color: #1E439B
+}
+
+.button.kinlab-button:hover, button.kinlab-button:hover, input[type="submit"].kinlab-button:hover, input[type="reset"].kinlab-button:hover, input[type="button"].kinlab-button:hover, .button.kinlab-button:focus, button.kinlab-button:focus, input[type="submit"].kinlab-button:focus, input[type="reset"].kinlab-button:focus, input[type="button"].kinlab-button:focus {
+    color: #FFF;
+    background-color: #ED811E;
+    border-color: #ED811E
+}
+
+#steps h1 {
+    color: #ED811E;
+    font-weight: 400
+}
+
+#steps a {
+    text-decoration: none
+}
+
+#steps p {
+    color: #1E439B
+}
+
+.form-jump {
+    text-align: right
+}
+
+.form-jump a {
+    font-weight: 700
+}
