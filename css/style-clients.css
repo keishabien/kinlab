@@ -1,0 +1,43 @@
+.clientimage {
+    width: 100%;
+    height:auto;
+    max-width: 1200px;
+}
+
+.blue {
+    text-align: center;
+    color:  #1E439B;
+
+}
+
+.orange {
+    text-align: center;
+    color: #ED811E
+}
+
+.blue blockquote {
+    font-size: 1.5em;
+
+}
+
+.orange blockquote {
+    font-size:1.5em;
+
+
+}
+
+.client_description {
+    padding: 10px;
+    text-align: left;
+}
+
+.visit  {
+    color: #ED811E;
+    padding: 0 10%;
+    text-align: center;
+
+}
+
+.visit i {
+    padding: 10px;
+}
