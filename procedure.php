@@ -3,11 +3,8 @@
     <!-- all content goes here;
     content is wrapper in a main tag and a div with container class -->
 
-    <h1>WORK IN PROGRESSSSSSSSSSSSS</h1>
-
-
-    <h1>Ready to get started?</h1>
-    <h2>Here's what you can expect from us:</h2>
+   
+    <h1>Here's what you can expect from us:</h1>
     
   
    
@@ -19,7 +16,7 @@
   <p>During your first visit to our offices, our staff will perform an array of physical, mental, and financial evaluations so that we can assess up front what may or may not be within the realm of possibility given the circumstances and combined incomes of you and your spouse. Many of our services are covered by personal insurance, but occasionally a client will request a more experimental approach to the design of their offspring. Such details will be discussed during this consultation.</p>
   <p>You will meet with staff in a relaxed office environment for an eight hour sequence of questions and informationals, during which we will explore the very rich, detailed history of your medical background and your past attempts at pregnancy, if any. We will review pertinent records and discuss your past in general before specifically addressing your problems. The three main areas of concern are egg quality, sperm quality, and determining whether or not the egg and sperm can meet, or if a DNA sample will be absolutley necessary.</p>
 
-  <h6 class="form-jump">Ready to sign up? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
+  <h6 class="form-jump">Ready to schedule an appointment? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
 
   <img src="" alt="">
 
@@ -35,7 +32,7 @@
 
   <p>After we've had a chance to grok the complete personal history of you and your partner, and reviewed any previous medical procedures, I will explain the test results specific to your current case. For first time couples, this will involve a complete DNA analysis, blood work on the fe/male to assess egg/sperm quality, and possibly some type of image scan, such as an ultrasound or dye study to evaluate the physical assets to be spliced. Based on previous intellectual testing, we may begin to discuss potential psychoanalytic treatments in a general sense.</p>
 
-  <h6 class="form-jump">Ready to sign up? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
+  <h6 class="form-jump">Ready to schedule an appointment? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
 
   <img src="" alt="">
 
@@ -52,7 +49,7 @@
   <p>The third step of the &copy;kinlab process is the combination of the selected DNA strands. Secured either from you, your partner or a donor, the most desired strands are mixed with the lesser(s) examples in a logical series of steps to ensure the most exacting linkage possible. Ocassionally a splice will need to be applied by the steady hands of one of our specialized technicians, and monitored closely to make sure that several healthy embryos develop.</p>
 
 
- <h6 class="form-jump">Ready to sign up? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
+ <h6 class="form-jump">Ready to schedule an appointment? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
 
   <img src="" alt="">
 
@@ -70,7 +67,7 @@
   <p>Once the embryos have developed enough for evaluation they are examined to select the healthiest one(s) for transfer. A suitable host (selected by you, our client) will be impregnated in an effort to simulate as close an approximation of a natural birth as possible.  The transfer of the embryo(s) will take place with or without your presence, as you prefer.  After the process is complete, bed rest is advised.</p>
 
 
- <h6 class="form-jump">Ready to sign up? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
+ <h6 class="form-jump">Ready to schedule an appointment? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
 
   <img src="" alt="">
 
@@ -91,7 +88,7 @@
   <p>While the average host may undergo multiple attempts before an acceptable pregnancy can occur, once established, it is no different from a natural pregnancy. To that effect, the &copy;kinlab process is no longer considered high risk.</p>
 
 
-<h6 class="form-jump">Ready to sign up? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
+<h6 class="form-jump">Ready to schedule an appointment? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
   <img src="" alt="">
 
 
@@ -108,14 +105,14 @@
 
   <p>After nine months of making sure your baby is kept healthy throughout the pregnancy, the final deliverable is subject to the assessment of you and your spouse.</p>
 
-<h6 class="form-jump">Ready to sign up? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
+<h6 class="form-jump">Ready to schedule an appointment? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
 
   <img src="" alt="">
 
 
 
 
-  </div>  <!-- end step five row -->
+  </div>  <!-- end step six row -->
 
 
 
@@ -127,7 +124,7 @@
 
        
     <div id="get-started" class="procedure">
-    <h1>Ready to set your appointment?</h1> <h4>Let's gather some information:</h4>
+    <h1>Ready to schedule an appointment?</h1>
 
 <form>
   <div class="row">
@@ -141,6 +138,8 @@
       <input class="u-full-width" placeholder="last name" id="lastName" type="text">
     </div>
     </div> <!-- end row  -->
+     
+
      <div class="row">
     <div class="six columns">
       <label for="Input">Partner's First Name</label>
@@ -151,6 +150,23 @@
       <input class="u-full-width" placeholder="last name" id="lastName" type="text">
     </div>
     </div> <!-- end row  -->
+
+    <div class="row">
+    <div class="six columns">
+      <label for="Input">Email Address</label>
+      <input class="u-full-width" placeholder="email address" id="email" type="text">
+    </div>
+
+     <div class="six columns">
+      <label for="Input">Telephone</label>
+      <input class="u-full-width" placeholder="telephone" id="telephone" type="text">
+    </div>
+
+
+
+
+     <!-- end row  -->
+
     <div class="row">
     <div class="eight columns">
       <label for="Input">Street Address</label>
@@ -231,27 +247,33 @@
 
 
 
-
-    </div> <!-- end first procedure -->
-
-
-  </div>
-  <label for="exampleMessage">Message</label>
-  <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
-  <label class="example-send-yourself-copy">
+<div class=" twelve columns">
+<input type="text" name="date1" id="date1" class="form-control" data-select="date" placeholder="preferred date">
+<span class="input-group-btn">
+  <button class="btn btn-primary" type="button" data-toggle="select"><i class="fa fa-calendar"></i></button>
+</span>
+</div>
+ <label class="twelve columns example-send-yourself-copy">
     <input type="checkbox">
-    <span class="label-body">Send a copy to yourself</span>
+    <span class="label-body">Send me a reminder</span>
   </label>
-  <input class="kinlab-button" value="Submit" type="submit">
+  </div>
+
+ 
+<!--   <input class="kinlab-button" value="Submit" type="submit" onclick="return confirm('Are you sure?')">
+ -->
+
+
 </form>
+ 
+
+</div>
+
+ 
 
 
 
-
-
-
-
-
+ <button class="kinlab-button" value="Submit" type="submit" onclick="window.location.href='b.php'">Submit</button>
 
 
 
