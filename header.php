@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-procedure.css">
-    
+    <link rel="stylesheet" href="css/style-clients.css">
+
 
 </head>
 <body>
