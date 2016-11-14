@@ -15,6 +15,18 @@ content is wrapper in a main tag and a div with container class -->
 
 
 
+
+
+
+
+
+<!-- final section of home page -->
+
+<?php include 'procedure-jump.php' ?>
+
+
+
+
 <!-- Other styled text tags -->
 <strong>Bolded</strong>
 <em>Italicized</em>
