@@ -31,26 +31,26 @@
                     <i class="fa fa-bars"></i>
                 </a>
                 <ul class="main-navigation">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="#">Mission</a></li>
-                    <li class="submenu"><a href="#">Clients</a>
+                    <li class="submenu"><a href="clients.php">Clients</a>
                         <ul class="sub-navigation">
                             <li><a href="#">Experiences</a></li>
                         </ul>
                     </li>
-                    <li class="submenu"><a href="#">Staff</a>
+                    <li class="submenu"><a href="staff.php">Staff</a>
                         <ul class="sub-navigation">
                             <li><a href="#">Introduction</a></li>
                             <li><a href="#">Meet Our Staff</a></li>
                         </ul>
                     </li>
-                    <li class="submenu"><a href="#">Contact</a>
+                    <li class="submenu"><a href="contact.php">Contact</a>
                         <ul class="sub-navigation">
                             <li><a href="#">Location</a></li>
                             <li><a href="#">Message Us</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Get Started</a></li>
+                    <li><a href="procedure.php">Get Started</a></li>
                 </ul>
             </nav>
         </div>

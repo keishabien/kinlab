@@ -61,46 +61,51 @@ h3, h4 {
 a, a:link, a:visited {
     color: #ED811E;
     text-decoration: underline;
+    transition: all .3s linear;
 }
 
 a:hover, a:focus, a:active {
     color: #000;
     text-decoration: underline;
+    transition: all .3s linear;
 }
 
 .main-navigation {
     float: left;
     width: 100%;
     margin: 0 auto;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 
 .main-navigation > li {
     display: inline-block;
     margin: 0 5px;
+    transition: all .3s linear;
 }
 
 .main-navigation > li > a {
     padding: 0 25px;
     line-height: 6rem;
     text-decoration: none;
-    font-family: "Roboto", Helvetica, Arial, sans-serif;
     text-transform: lowercase;
     color: #FFF;
     font-size: 1.5rem;
     display: block;
-    font-weight: 300;
     background-color: transparent;
     transition: background-color .3s linear;
 }
 
 .main-navigation > li:last-child > a {
     color: #ED811E;
+    font-weight: 700;
+    transition: all .3s linear;
 }
 
 .main-navigation > li:hover > a,
 .main-navigation > li:focus > a,
 .main-navigation > li:active > a {
-    background-color: rgba(255, 255, 255, .2);
+    background-color: #4B69AF;
     transition: background-color .3s linear;
 }
 
@@ -136,24 +141,20 @@ a:hover, a:focus, a:active {
     float: left;
     margin: 0;
     width: 100%;
+    transition: all .3s linear;
 }
 
 .sub-navigation > li > a {
     text-decoration: none;
     padding: 10px 0 10px 25px;
-    font-weight: 300;
-}
-.main-navigation > li:hover > a,
-.main-navigation > li:focus > a,
-.main-navigation > li:active > a {
-    background: rgba(0,0,0,.2);
-}
-.main-navigation li .sub-navigation {
-    display: none;
-}
-.main-navigation li.submenu:hover .sub-navigation {
     display: block;
-    /*background-color: inherit;*/
+    color: #FFF;
+    transition: all .2s linear;
+}
+
+.sub-navigation > li:hover > a {
+    color: #ED811E;
+    transition: all .2s linear;
 }
 
 
@@ -165,19 +166,19 @@ a:hover, a:focus, a:active {
 
 /* Larger than mobile */
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
+@media (min-width:401px) to (max-width: 767px) {
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {
+@media (min-width: 768px) to (max-width:999px) {
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) {
+@media (min-width: 1000px) to (max-width:1999px) {
 }
 
 /* Larger than Desktop HD */
