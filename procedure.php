@@ -6,17 +6,19 @@
    
     <h1>Here's what you can expect from us:</h1>
     
-  
+   
    
   <div id="steps">
 
   <div class="row step-1">
-    
-   <a href="#step-1"><h1><i class="fa fa-user-md"></i> Step 1: Consultation</h1></a>
-  <p>During your first visit to our offices, our staff will perform an array of physical, mental, and financial evaluations so that we can assess up front what may or may not be within the realm of possibility given the circumstances and combined incomes of you and your spouse. Many of our services are covered by personal insurance, but occasionally a client will request a more experimental approach to the design of their offspring. Such details will be discussed during this consultation.</p>
-  <p>You will meet with staff in a relaxed office environment for an eight hour sequence of questions and informationals, during which we will explore the very rich, detailed history of your medical background and your past attempts at pregnancy, if any. We will review pertinent records and discuss your past in general before specifically addressing your problems. The three main areas of concern are egg quality, sperm quality, and determining whether or not the egg and sperm can meet, or if a DNA sample will be absolutley necessary.</p>
 
-  <h6 class="form-jump">Ready to schedule an appointment? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
+   <a href="#step-1"><h1><i class="fa fa-user-md"></i> Step 1: Consultation</h1></a>
+      <img src="images/consultation.jpg" alt="consultation" class="procedure-left">
+
+  <p>During your first visit to our offices, our staff will perform an array of physical, mental, and financial evaluations so that we can assess up front what may or may not be within the realm of possibility given the circumstances and combined incomes of you and your spouse. Many of our services are covered by personal insurance, but occasionally a client will request a more experimental approach to the design of their offspring. Such details will be discussed during this consultation.</p>
+  <p>You will meet with staff in a relaxed office environment for an eight hour sequence of questions and informationals, during which we will explore the very rich, detailed history of your medical background and your past attempts at pregnancy, if any. We will review pertinent records and discuss your past in general before addressing your particular expectations. The three main areas of concern are egg quality, sperm quality, and determining whether or not the egg and sperm can meet, or if a DNA sample will be absolutley necessary.</p>
+
+  <h6 class="form-jump">Ready to schedule an appointment?<br><a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
 
   <img src="" alt="">
 
@@ -24,15 +26,17 @@
 
 
   </div>  <!-- end step one row -->
+<hr>
 
  
   <div class="row step-2">
     
  <a href="#step-2"><h1><i class="fa fa-flask"></i> Step 2: Testing &amp; Mapping</h1></a>
+      <img src="images/dna-testing.jpg" alt="dna-testing" class="procedure-left">
 
   <p>After we've had a chance to grok the complete personal history of you and your partner, and reviewed any previous medical procedures, I will explain the test results specific to your current case. For first time couples, this will involve a complete DNA analysis, blood work on the fe/male to assess egg/sperm quality, and possibly some type of image scan, such as an ultrasound or dye study to evaluate the physical assets to be spliced. Based on previous intellectual testing, we may begin to discuss potential psychoanalytic treatments in a general sense.</p>
 
-  <h6 class="form-jump">Ready to schedule an appointment? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
+  <h6 class="form-jump">Ready to schedule an appointment?<br><a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
 
   <img src="" alt="">
 
@@ -41,15 +45,17 @@
 
   </div>  <!-- end step two row -->
 
+<hr>
 
   <div class="row step-3">
     
   <a href="#step-3"><h1><i class="fa fa-puzzle-piece"></i> Step 3: Recombination</h1></a>
+      <img src="images/recombination.jpg" alt="recombination" class="procedure-right">
 
   <p>The third step of the &copy;kinlab process is the combination of the selected DNA strands. Secured either from you, your partner or a donor, the most desired strands are mixed with the lesser(s) examples in a logical series of steps to ensure the most exacting linkage possible. Ocassionally a splice will need to be applied by the steady hands of one of our specialized technicians, and monitored closely to make sure that several healthy embryos develop.</p>
 
 
- <h6 class="form-jump">Ready to schedule an appointment? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
+ <h6 class="form-jump">Ready to schedule an appointment?<br><a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
 
   <img src="" alt="">
 
@@ -58,16 +64,18 @@
 
   </div>  <!-- end step three row -->
 
+<hr>
 
 
   <div class="row step-4">
     
   <a href="#step-4"><h1><i class="fa fa-plus-circle"></i> Step 4: Implantation</h1></a>
+      <img src="images/implantation.jpg" alt="implantation" class="procedure-left">
 
   <p>Once the embryos have developed enough for evaluation they are examined to select the healthiest one(s) for transfer. A suitable host (selected by you, our client) will be impregnated in an effort to simulate as close an approximation of a natural birth as possible.  The transfer of the embryo(s) will take place with or without your presence, as you prefer.  After the process is complete, bed rest is advised.</p>
 
 
- <h6 class="form-jump">Ready to schedule an appointment? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
+ <h6 class="form-jump">Ready to schedule an appointment?<br><a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
 
   <img src="" alt="">
 
@@ -76,19 +84,21 @@
 
   </div>  <!-- end step four row -->
      
+<hr>
 
 
 
   <div class="row step-5">
     
   <a href="#step-5"><h1><i class="fa fa fa-heartbeat"></i> Step 5: Monitoring</h1></a>
+      <img src="images/testing.jpg" alt="testing" class="procedure-left">
 
   <p>For just a few short weeks after the in vitro process, your host will be able to confirm the health of the fetus with a traditional pregnancy test. Many hosts find the pregnancy to be a life affirming process, but others can exhibit some depression that the procedure is to the benefit of the client. We've had enough such situations that the host will be re-evaluated at this time to assure continued co-operation. Before we continue through to the final stage, a look into the physical health of the child and mental well being of the host is necessary to maintain our award winning success rates for clients in your financial bracket. </p>
 
   <p>While the average host may undergo multiple attempts before an acceptable pregnancy can occur, once established, it is no different from a natural pregnancy. To that effect, the &copy;kinlab process is no longer considered high risk.</p>
 
 
-<h6 class="form-jump">Ready to schedule an appointment? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
+<h6 class="form-jump">Ready to schedule an appointment?<br><a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
   <img src="" alt="">
 
 
@@ -96,24 +106,25 @@
 
   </div>  <!-- end step five row -->
 
+<hr>
 
 
 
   <div class="row step-6">
     
   <a href="#step-6"><h1><i class="fa fa-child"></i> Step 6: Delivery</h1></a>
+      <img src="images/family5.jpg" alt="family5" class="procedure-left">
 
   <p>After nine months of making sure your baby is kept healthy throughout the pregnancy, the final deliverable is subject to the assessment of you and your spouse.</p>
 
-<h6 class="form-jump">Ready to schedule an appointment? <a href="#get-started" class="smoothScroll">Jump to the form.</a></h6>
 
   <img src="" alt="">
 
 
 
-
   </div>  <!-- end step six row -->
 
+<hr>
 
 
   </div> <!-- end steps id row -->
@@ -273,7 +284,7 @@
 
 
 
- <button class="kinlab-button" value="Submit" type="submit" onclick="window.location.href='b.php'">Submit</button>
+ <button class="kinlab-button" value="Submit" type="submit" onclick="window.location.href='confirmation.php'">Submit</button>
 
 
 
