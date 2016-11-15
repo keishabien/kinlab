@@ -30,10 +30,18 @@ header {
     margin-bottom: 20px;
 }
 
-header img {
+footer {
+    background: #1E439B;
+    margin-top: 20px;
+}
+
+header img,
+footer img {
     margin: 5px 0;
     padding: 3px;
 }
+
+
 
 /*..........TEXT ELEMENTS..........*/
 
@@ -157,8 +165,44 @@ a:hover, a:focus, a:active {
     transition: all .2s linear;
 }
 
+footer {
+    margin-top:15px;
+    color: #FFF;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+footer img {
+    max-width: 65px;
+    vertical-align: middle;
+    display: inline;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer .footer-links p {
+    text-align: right;
+    margin: 3em 0 0;
+    display: block;
+}
+
+footer .footer-links a {
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #FFF;
+}
+
+footer .footer-links a:hover {
+    color: #000;
+}
 
 /*..........CUSTOM ELEMENTS..........*/
+.footer-logo {
+    max-width: 65px;
+}
 
 /*..........SKELETON MODIFICATIONS..........*/
 
