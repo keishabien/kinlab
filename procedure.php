@@ -113,7 +113,7 @@
   <div class="row step-6">
     
   <a href="#step-6"><h1><i class="fa fa-child"></i> Step 6: Delivery</h1></a>
-      <img src="images/family5.jpg" alt="family5" class="procedure-left">
+      <img src="images/family5.jpg" alt="family5" class="procedure-left u-max-full-width">
 
   <p>After nine months of making sure your baby is kept healthy throughout the pregnancy, the final deliverable is subject to the assessment of you and your spouse.</p>
 

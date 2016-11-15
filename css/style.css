@@ -26,7 +26,7 @@ body {
 header {
     background: #1E439B;
     height: 60px;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
 }
 
 footer {
@@ -48,6 +48,17 @@ h1 {
     font-size: 3.5rem;
     color: #1E439B;
     text-transform: lowercase;
+}
+
+.extra-header {
+    /*position: absolute;*/
+    /*!* margin: 0 auto; *!*/
+    /*left: 0;*/
+    /*text-align: center;*/
+    /*right: 270px;*/
+    /*!* margin-left: auto; *!*/
+    /*top: 40px;*/
+    /*bottom: 0;*/
 }
 
 h2, h3, h4, h5, h6 {
@@ -87,6 +98,7 @@ a:hover, a:focus, a:active {
     float: left;
     width: 100%;
     margin: 0 auto;
+    text-align: right;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     font-weight: 400;
 }
@@ -98,7 +110,7 @@ a:hover, a:focus, a:active {
 }
 
 .main-navigation > li > a {
-    padding: 0 25px;
+    padding: 0 30px;
     line-height: 6rem;
     text-decoration: none;
     text-transform: lowercase;
@@ -141,6 +153,7 @@ a:hover, a:focus, a:active {
     background-color: #4B69AF;
     float: left;
     margin: 0;
+    text-align: left;
     padding: 0;
     width: 200px;
     z-index: 5;
@@ -159,7 +172,8 @@ a:hover, a:focus, a:active {
 
 .sub-navigation > li > a {
     text-decoration: none;
-    padding: 10px 0 10px 25px;
+    padding: 10px 0 10px 30px;
+    text-transform: lowercase;
     display: block;
     color: #FFF;
     transition: all .2s linear;

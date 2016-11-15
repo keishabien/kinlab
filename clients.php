@@ -2,9 +2,11 @@
 
     <!-- all content goes here;
     content is wrapper in a main tag and a div with container class -->
-
-    <h1>Testimonials </h1>
-
+    <div class="row">
+        <div class="twelve columns">
+            <h1>Testimonials </h1>
+        </div>
+    </div>
 
     <div class="row ">
         <div class="six columns orange">
