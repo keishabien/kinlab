@@ -26,22 +26,20 @@
 
 
         </div>
+       
 
-    <small>
-        <a id="myBtn"> <p>
-           Created by students at Minneapolis Community &amp; Technical College | Read the disclaimer</a>
-    </small>
+<a id="myBtn"><small>Disclaimer | Created by students at Minneapolis Community &amp; Technical College. </small></a>
     <!-- The Modal -->
-     <div id="myModal" class="modal">
-        <!-- Modal content -->
-            <div class="kinlab-modal-content">
-                 <span class="close">x</span>
+    <div id="myModal" class="modal">
+  <!-- Modal content -->
+  <div class="kinlab-modal-content">
+    <span class="close">x</span>
 <h1>disclaimer</h1>
 <p>Kinlab provides absolutely no services. The information provided on this website is entirely theoretical and as such includes absolutely no warranty or obligation of any kind. Kinlab does not accept any responsibility or liability for the accuracy, content, completeness, legality, or reliability of the information contained on this website. Any attempts to contact Kinlab or attempt to oblige use of any of its listed services will be void. No warranties, expressed or implied, promises, expressed or implied, and/or representations of any kind, expressed or implied, are given within the information provided within this website. Kinlab and the Kinlab logo are mock trademarks and represent no known legal or business entity. </p>  
 
 
 
-</div>          <!-- end Modal content -->
+</div>  <!-- end modal -->
 
 
 </div>
