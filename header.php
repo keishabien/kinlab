@@ -37,8 +37,8 @@
 <!--                </a>-->
                 <ul class="main-navigation">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="#">Mission</a></li>
-                    <li class="submenu"><a href="#">Clients</a>
+
+                    <li class="submenu"><a href="clients.php">Clients</a>
                         <ul class="sub-navigation">
                             <li><a href="clients.php">Testimonials</a></li>
                         </ul>
