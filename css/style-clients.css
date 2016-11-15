@@ -1,18 +1,18 @@
 .clientimage {
     width: 100%;
-    height:auto;
+    height: auto;
     max-width: 1200px;
 }
 
 .blue {
     text-align: center;
-    color:  #1E439B;
+    color: #1E439B;
 
 }
 
 .orange {
     text-align: center;
-    color: #ED811E
+    color: #ED811E;
 }
 
 .blue blockquote {
@@ -21,8 +21,7 @@
 }
 
 .orange blockquote {
-    font-size:1.5em;
-
+    font-size: 1.5em;
 
 }
 
@@ -31,7 +30,7 @@
     text-align: left;
 }
 
-.visit  {
+.visit {
     color: #ED811E;
     padding: 0 10%;
     text-align: center;

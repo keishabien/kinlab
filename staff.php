@@ -9,10 +9,8 @@
     <h4>Heading</h4>
     <h5>Heading</h5>
     <h6>Heading</h6>
-    <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-
-
-
+    <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some
+        content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
 
 
     <!-- Other styled text tags -->

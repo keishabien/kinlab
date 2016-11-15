@@ -20,6 +20,7 @@
                     <a href="staff.php">Staff</a>
                     <a href="contact.php">Contact</a>
                     <a href="procedure.php">Get Started</a>
+                    <a href="#" class="top-link-block"><i class="fa fa-chevron-up"></i></a>
                 </p>
             </div>
 
@@ -34,7 +35,11 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/smoothscroll.js"></script>
 <script type="text/javascript" src="js/jquery.dateselect.min.js"></script>
-
-
+<script type="text/javascript">
+    $(".top-link-block").click(function(){
+        $('html,body').animate({scrollTop:0},'2000');
+        return false;
+    });
+</script>
 </body>
 </html>

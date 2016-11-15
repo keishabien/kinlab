@@ -8,9 +8,9 @@
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
 
-    <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
@@ -35,9 +35,9 @@
                 <ul class="main-navigation">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="#">Mission</a></li>
-                    <li class="submenu"><a href="clients.php">Clients</a>
+                    <li class="submenu"><a href="#">Clients</a>
                         <ul class="sub-navigation">
-                            <li><a href="#">Experiences</a></li>
+                            <li><a href="clients.php">Testimonials</a></li>
                         </ul>
                     </li>
                     <li class="submenu"><a href="staff.php">Staff</a>
@@ -48,8 +48,8 @@
                     </li>
                     <li class="submenu"><a href="contact.php">Contact</a>
                         <ul class="sub-navigation">
-                            <li><a href="#">Location</a></li>
-                            <li><a href="#">Message Us</a></li>
+                            <li><a href="contact.php#location">Location</a></li>
+                            <li><a href="contact.php#message">Message Us</a></li>
                         </ul>
                     </li>
                     <li><a href="procedure.php">Get Started</a></li>
@@ -61,5 +61,5 @@
 
 <!-- where the body opens-->
 <main>
-<!-- all content will be wrapped in this container -->
+    <!-- all content will be wrapped in this container -->
     <div class="container">

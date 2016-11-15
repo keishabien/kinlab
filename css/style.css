@@ -5,7 +5,6 @@ community and technical college.
 portfolio and class project,
 not for personal use.
 ..........*/
-
 /*..........IMPORTS AND FONTS..........*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto+Slab:300,400,700|Poppins');
 
@@ -16,7 +15,7 @@ not for personal use.
 /*..........#D7E4EB Light Blue..........*/
 
 /*..........BODY ELEMENTS..........*/
-html{
+html {
     cursor: default;
 }
 
@@ -41,8 +40,6 @@ footer img {
     padding: 3px;
 }
 
-
-
 /*..........TEXT ELEMENTS..........*/
 
 h1 {
@@ -61,6 +58,10 @@ h2 {
     font-size: 3.1rem;
 }
 
+h2.orange {
+    text-align: left!important;
+}
+
 h3, h4 {
     font-size: 2.6rem;
 }
@@ -76,6 +77,10 @@ a:hover, a:focus, a:active {
     color: #000;
     text-decoration: underline;
     transition: all .3s linear;
+}
+
+.menu-icon {
+    display: none;
 }
 
 .main-navigation {
@@ -166,7 +171,7 @@ a:hover, a:focus, a:active {
 }
 
 footer {
-    margin-top:15px;
+    margin-top: 15px;
     color: #FFF;
     font-size: 1.2rem;
     text-transform: uppercase;
@@ -204,6 +209,10 @@ footer .footer-links a:hover {
     max-width: 65px;
 }
 
+.contact-list {
+    list-style-type: none;
+}
+
 /*..........SKELETON MODIFICATIONS..........*/
 
 /*..........MEDIA QUERIES..........*/
@@ -211,18 +220,25 @@ footer .footer-links a:hover {
 /* Larger than mobile */
 
 @media (max-width: 400px) {
+    .menu-icon {
+        display: block;
+    }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width:401px) to (max-width: 767px) {
+@media (min-width: 401px) to (max-width: 767px) {
+    .menu-icon {
+        display: block;
+    }
 }
 
 /* Larger than tablet */
-@media (min-width: 768px) to (max-width:999px) {
+@media (min-width: 768px) to (max-width: 999px) {
+
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) to (max-width:1999px) {
+@media (min-width: 1000px) to (max-width: 1999px) {
 }
 
 /* Larger than Desktop HD */
