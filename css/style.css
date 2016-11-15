@@ -203,7 +203,35 @@ footer .footer-links a:hover {
 .footer-logo {
     max-width: 65px;
 }
-
+#totop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.fa-angle-up {
+    color: #ED811E;
+    font-size: 3em;
+    background-color: #1E439B;
+    padding: 10px;
+}
+.fa-angle-up:hover {
+    color: #fff;
+    -webkit-transform:        rotate(360deg);
+    -moz-transform:           rotate(360deg);
+    -ms-transform:            rotate(360deg);
+    -o-transform:             rotate(360deg);
+    transform:                rotate(360deg);
+    -webkit-transform-origin: center;
+    -moz-transform-origin:    center;
+    -ms-transform-origin:     center;
+    -o-transform-origin:      center;
+    transform-origin:         center;
+    transition:               transform 550ms ease;
+    -moz-transition:          -moz-transform 550ms ease;
+    -ms-transition:           -ms-transform 550ms ease;
+    -o-transition:            -o-transform 550ms ease;
+    -webkit-transition:       -webkit-transform 550ms ease;
+}
 /*..........SKELETON MODIFICATIONS..........*/
 
 /*..........MEDIA QUERIES..........*/
@@ -211,18 +239,24 @@ footer .footer-links a:hover {
 /* Larger than mobile */
 
 @media (max-width: 400px) {
+    .fa-angle-up {
+        display: none;
+    }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width:401px) to (max-width: 767px) {
+@media (min-width:401px) and (max-width: 767px) {
+    .fa-angle-up {
+        display: none;
+    }
 }
 
 /* Larger than tablet */
-@media (min-width: 768px) to (max-width:999px) {
+@media (min-width: 768px) and (max-width:999px) {
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) to (max-width:1999px) {
+@media (min-width: 1000px) and (max-width:1999px) {
 }
 
 /* Larger than Desktop HD */
