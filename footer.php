@@ -34,7 +34,12 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/smoothscroll.js"></script>
 <script type="text/javascript" src="js/jquery.dateselect.min.js"></script>
-
+<script type="text/javascript">
+    $("top-link-block").onclick=function(){
+        $('html,body').animate({scrollTop:0},'2000');
+        return false;
+    };
+</script>
 
 </body>
 </html>
