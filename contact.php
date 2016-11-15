@@ -28,9 +28,7 @@
 
         </div>
         <div class="four columns">
-            <iframe src="http://www.map-generator.org/ae86f991-edcb-4a61-80cc-634fd21e3e13/iframe-map.aspx"
-                    scrolling="no" width="300px" height="200px" frameborder="0" scrolling="no" marginheight="0"
-                    marginwidth="0"></iframe>
+            <iframe src="http://www.map-generator.org/ac48dded-5f33-4a74-8a2e-cef580bb393c/iframe-map.aspx" scrolling="no" width="300px" height="200px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
 
 

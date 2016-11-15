@@ -62,12 +62,17 @@
 <script type="text/javascript" src="js/kinlab-modal.js"></script>
 <script type="text/javascript">
 
-    //    $(".top-link-block").click(function(){
-    //        $('html,body').animate({
-    //            scrollTop: target.offset().top
-    //        }, 1000);
-    //    });
+    // Making the mobile navigation menu behave well
+    $(".menu-icon").click(function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        $(".main-navigation").slideToggle(500);
 
+        // This closes the mobile nav when a link is clicked (as page scrolls down)
+        $('.main-navigation li').click(function(){
+            $('.main-navigation').slideUp(500);
+        });
+    });
 
     // Nice looking page scrolling - good with jump navigations
     $(function () {

@@ -1,17 +1,10 @@
 <?php include 'header.php' ?>
 <style>
-    footer{  
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background: #1E439B;
-    margin-top: 20px;
-    min-height: 100px;  /*added by matt*/}
+    footer{
 
-    header{ 
-    position: relative;  /*added by matt*/
-    min-height: 100%;  /*added by matt*/
-    cursor: default;  /*added by matt*/}
+    bottom: 0;
+}
+
 </style>
     <!-- all content goes here;
     content is wrapper in a main tag and a div with container class -->
@@ -22,13 +15,6 @@
     
    
    </div>
-  
-    <div class="row" id="confirmation-logo">
-      
-
-    <a href="index.php"><img src="images/logo.png" alt="logo"></a>
-
-    </div>
 
 
 

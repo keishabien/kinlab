@@ -26,12 +26,22 @@ body {
 header {
     background: #1E439B;
     height: 60px;
+    position: relative;  /*added by matt*/
+    min-height: 100%;  /*added by matt*/
+    cursor: default;
     /*margin-bottom: 20px;*/
 }
 
 footer {
     background: #1E439B;
     margin-top: 20px;
+    position: absolute;
+    padding-bottom:20px;
+    /*bottom: 0;*/
+    width: 100%;
+    color: #FFF;
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
 
 header img,
@@ -184,12 +194,6 @@ a:hover, a:focus, a:active {
     transition: all .2s linear;
 }
 
-footer {
-    margin-top: 15px;
-    color: #FFF;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-}
 
 footer img {
     max-width: 65px;
@@ -219,6 +223,13 @@ footer .footer-links a:hover {
 }
 
 /*..........CUSTOM ELEMENTS..........*/
+.mission_buttons {
+    padding-top: 20px;
+}
+.mission_buttons .fa-5x {
+    padding-top: 20px;
+}
+
 .footer-logo {
     max-width: 65px;
 }
@@ -231,8 +242,11 @@ footer .footer-links a:hover {
     position: fixed;
     bottom: 30px;
     right: 30px;
+    z-index: 1;
 }
 i.up-arrow {
+    position: relative;
+
     color: #D7E4EB;
     font-size: 2em;
     /*background-color: #1E439B;*/
@@ -264,6 +278,12 @@ i.up-arrow:hover {
     -webkit-transition:       all 550ms ease;
 }
 
+#canvas {
+    width: 100%;
+    background-color:#FFFFFF;
+    margin: 20px auto 10px;
+}
+
 /*..........SKELETON MODIFICATIONS..........*/
 
 /*..........MEDIA QUERIES..........*/
@@ -274,38 +294,189 @@ i.up-arrow:hover {
 
     .menu-icon {
         display: block;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        text-align: right;
+
     }
 
-    .fa-angle-up {
+    .main-navigation {
+        display: none;
+        text-align: left;
+        position: absolute;
+        height: 250px;
+        top: 60px;
+
+        z-index: 5;
+        background: #4B69AF;
+        right: 0;
+        left: 0;
+    }
+
+    .main-navigation > li {
+        display: block;
+        margin:0;
+    }
+
+    .main-navigation > li:hover > a,
+    .main-navigation > li:focus > a,
+    .main-navigation > li:active > a {
+        background-color: #1E439B;
+        transition: background-color .3s linear;
+    }
+
+    .main-navigation > li > a {
+        padding: 0 20px;
+        line-height: 5rem;
+        text-decoration: none;
+        text-transform: lowercase;
+        color: #FFF;
+
+        display: block;
+
+        transition: background-color .3s linear;
+    }
+    .sub-navigation {
+        display: none;
+    }
+    i.up-arrow {
         display: none;
 
+    }
+    footer {
+
+        position: relative;
+
+    }
+
+    footer .footer-links p {
+        text-align: left;
+        margin: 20px 0;
+        display: block;
+    }
+
+    footer .footer-links a {
+        padding: 5px 10px;
+        display: block;
+        text-decoration: none;
+        font-weight: 600;
+        color: #FFF;
+    }
+
+    header img, footer img {
+        margin: 5px 0;
+        padding: 0 20px;
+        width: 180px;
+    }
+    .width-50 {
+        width:50%;
     }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
 
-@media (min-width: 401px) to (max-width: 767px) {
+@media (min-width: 401px) and (max-width: 767px) {
+
     .menu-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 15px;
+        text-align: right;
+
+    }
+
+
+    .main-navigation {
+        display: none;
+        text-align: left;
+        position: absolute;
+        height: 250px;
+        top: 60px;
+
+        z-index: 5;
+        background: #4B69AF;
+        right: 0;
+        left: 0;
+    }
+
+    .main-navigation > li {
+        display: block;
+        margin:0;
+    }
+
+    .main-navigation > li:hover > a,
+    .main-navigation > li:focus > a,
+    .main-navigation > li:active > a {
+        background-color: #1E439B;
+        transition: background-color .3s linear;
+    }
+
+    .main-navigation > li > a {
+        padding: 0 20px;
+        line-height: 5rem;
+        text-decoration: none;
+        text-transform: lowercase;
+        color: #FFF;
+
+        display: block;
+
+        transition: background-color .3s linear;
+    }
+    .sub-navigation {
+        display: none;
+    }
+    i.up-arrow {
+        display: none;
+
+    }
+    header img, footer img {
+        margin: 5px 0;
+        padding: 0 20px;
+        width: 180px;
+    }
+    footer {
+
+        position: relative;
+
+    }
+    footer .footer-links p {
+        text-align: left;
+        margin: 20px 0;
         display: block;
     }
 
-    .fa-angle-up {
-        display: none;
-
+    footer .footer-links a {
+        padding: 5px 10px;
+        display: block;
+        text-decoration: none;
+        font-weight: 600;
+        color: #FFF;
+    }
+    .width-50 {
+        width:50%;
     }
 }
 
 /* Larger than tablet */
 
-@media (min-width: 768px) to (max-width: 999px) {
-
+@media (min-width: 768px) and (max-width: 999px) {
+    .menu-icon {
+        display: none;
+    }
 }
 
 /* Larger than desktop */
-@media (min-width: 1000px) to (max-width: 1999px) {
-
+@media (min-width: 1000px) and (max-width: 1999px) {
+    .menu-icon {
+        display: none;
+    }
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
+    .menu-icon {
+        display: none;
+    }
 }

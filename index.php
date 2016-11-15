@@ -32,6 +32,7 @@
         }
 
     </script>
+
     <!-- all content goes here;
     content is wrapper in a main tag and a div with container class -->
 
@@ -129,7 +130,7 @@
 
 <div class="row">
     <div class="twelve columns" style="text-align: center;margin: 0 auto;">
-        <canvas id="canvas" width="728" height="90" style="background-color:#FFFFFF; margin: 20px auto 10px;"</canvas>
+        <canvas id="canvas" width="728" height="90"></canvas>
     </div>
 
 </div>
@@ -152,8 +153,9 @@
             </div>
             <div class="five columns staff-div orange">
                 <blockquote>Find the right doctor for you.</blockquote>
+                <p>Learn more about our team, and how our skilled professionals can deliver you a perfect baby. Our expert team will provide quality care to you and your infant, while reassuring you of our expert edge process.</p>
                 <a href="staff.php">
-                    <button class="staff-button">Discover more</button>
+                    <button class="kinlab-button">Discover more</button>
                 </a>
             </div>
         </div>
@@ -188,9 +190,7 @@
 
         </div>
         <div class="four columns">
-            <iframe src="http://www.map-generator.org/ae86f991-edcb-4a61-80cc-634fd21e3e13/iframe-map.aspx"
-                    scrolling="no" width="300px" height="200px" frameborder="0" scrolling="no" marginheight="0"
-                    marginwidth="0"></iframe>
+            <iframe src="http://www.map-generator.org/ac48dded-5f33-4a74-8a2e-cef580bb393c/iframe-map.aspx" scrolling="no" width="300px" height="200px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
 
 

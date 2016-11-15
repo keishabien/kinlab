@@ -19,6 +19,10 @@
     <link rel="stylesheet" href="css/style-staff.css">
     <link rel="stylesheet" href="css/kinlab-modal.css">
 
+    <script>
+
+    </script>
+
 </head>
 <body onload="init();">
 
@@ -26,16 +30,16 @@
     <a name="top"></a>
     <div class="container">
         <div class="row">
-            <div class="two columns">
+            <div class="two columns width-50">
                 <a href="index.php">
                     <img src="images/logowhite.png" alt="kinlab logo" class="u-max-full-width">
 </a>
             </div>
 
             <nav class="navigation ten columns">
-<!--                <a href="#" class="menu-icon">-->
-<!--                    <i class="fa fa-bars"></i>-->
-<!--                </a>-->
+                <a href="#" class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </a>
                 <ul class="main-navigation">
 <!--                    <li><a href="index.php">Home</a></li>-->
                     <li><a href="index.php#mission">Our Mission</a></li>
