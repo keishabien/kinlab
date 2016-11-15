@@ -191,9 +191,8 @@
 
 
         </form>
-
-        <button class="kinlab-button" value="Submit" type="submit" onclick="window.location.href='b.php'">Submit
-        </button>
+</div>
+       <button class="kinlab-button" value="Submit" type="submit" onclick="window.location.href='contact-confirmation.php'">Submit</button>
 
     </div>
     <!-- the div and main closes after here -->
