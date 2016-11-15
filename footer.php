@@ -36,10 +36,12 @@
 <script type="text/javascript" src="js/smoothscroll.js"></script>
 <script type="text/javascript" src="js/jquery.dateselect.min.js"></script>
 <script type="text/javascript">
+
     $(".top-link-block").click(function(){
         $('html,body').animate({scrollTop:0},'2000');
         return false;
     });
 </script>
+
 </body>
 </html>
