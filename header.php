@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/style-procedure.css">
     <link rel="stylesheet" href="css/style-clients.css">
     <link rel="stylesheet" href="css/style-staff.css">
+    <link rel="stylesheet" href="css/kinlab-modal.css">
 
 </head>
 <body>
