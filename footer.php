@@ -15,6 +15,7 @@
             <div class="nine columns footer-links">
                 <p>
                     <a href="index.php">Home</a>
+                    <a href="about.php">Mission</a>
                     <a href="clients.php">Clients</a>
                     <a href="staff.php">Staff</a>
                     <a href="contact.php">Contact</a>

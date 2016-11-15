@@ -70,21 +70,25 @@
                     x[myIndex - 1].style.display = "block";
                     setTimeout(carousel, 3000); // Change image every 2 seconds
                 }
-                myIndex++;
-                if (myIndex > x.length) {myIndex = 1}
-                x[myIndex-1].style.display = "block";
-                setTimeout(carousel, 3000); // Change image every 2 seconds
-            }
-        </script>
+
+            </script>
+        </div>
+        <div class="four columns orange">
+            <blockquote>Kinlab wants to help you expand your family. Check out the stories of some of our satisfied
+                clients.
+            </blockquote>
+            <a href="clients.php">
+                <button class="kinlab-button"> learn more</button>
+            </a>
+        </div>
+
     </div>
-    <div class="four columns orange">
-        <blockquote>Kinlab wants to help you expand your family. Check out the stories of some of our satisfied clients.</blockquote>
-        <a href="clients.php"><button class="kinlab-button"> learn more </button></a>
-    </div>
+    <!-- the div and main closes after here -->
+
     <div class="twelve columns staff-index-h1">
         <h1>
             <i class="fa fa-user-md fa-3x" aria-hidden="true"></i>
-            <br />
+            <br/>
             Our Team
         </h1>
     </div>
@@ -101,7 +105,7 @@
             </div>
         </div>
     </div>
-</div>
-<!-- the div and main closes after here -->
+
+    <!-- the div and main closes after here -->
 
 <?php include 'footer.php' ?>
