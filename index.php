@@ -70,17 +70,38 @@
                     x[myIndex - 1].style.display = "block";
                     setTimeout(carousel, 3000); // Change image every 2 seconds
                 }
-            </script>
-        </div>
-        <div class="four columns orange">
-            <blockquote>Kinlab wants to help you expand your family. Check out the stories of some of our satisfied
-                clients.
-            </blockquote>
-            <a href="clients.php">
-                <button class="kinlab-button"> learn more</button>
-            </a>
-        </div>
-
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}
+                x[myIndex-1].style.display = "block";
+                setTimeout(carousel, 3000); // Change image every 2 seconds
+            }
+        </script>
     </div>
-    <!-- the div and main closes after here -->
+    <div class="four columns orange">
+        <blockquote>Kinlab wants to help you expand your family. Check out the stories of some of our satisfied clients.</blockquote>
+        <a href="clients.php"><button class="kinlab-button"> learn more </button></a>
+    </div>
+    <div class="twelve columns staff-index-h1">
+        <h1>
+            <i class="fa fa-user-md fa-3x" aria-hidden="true"></i>
+            <br />
+            Our Team
+        </h1>
+    </div>
+    <div class="twelve columns staff-index">
+        <div class="row staff-img">
+            <div class="seven columns">
+                <img src="images/team.jpg" alt="team">
+            </div>
+            <div class="five columns staff-div orange">
+                <blockquote>Find the right doctor for you.</blockquote>
+                <a href="staff.php">
+                    <button class="staff-button">Discover more</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- the div and main closes after here -->
+
 <?php include 'footer.php' ?>
