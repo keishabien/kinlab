@@ -21,11 +21,12 @@
             <img src="images/team.jpg" alt="team" width="100%">
         </div>
     </div>
-    <hr class="staff-hr">
-    <h4 class="mos">Intro</h4>
-    <hr class="staff-hr">
+
+
+
     <div class="row">
         <div class="twelve columns staff">
+            <h3>Introduction</h3>
             <p>
                 Medicine is a noble profession. A calling. We became doctors to serve people and improve their lives.
                 But as healthcare has become ever more complex, mountains of paperwork and cumbersome processes have
@@ -39,11 +40,10 @@
                 can fill critical positions so they can focus on serving their communities.</p>
         </div>
     </div>
-    <a name="mos"></a>
-    <br/>
-    <hr class="staff-hr">
-    <h4 class="mos">Meet Our Staff</h4>
-    <hr class="staff-hr">
+    <hr>
+
+    <h3>Meet Our Staff</h3>
+
     <div class="row staff-row">
         <div class="four columns staff">
             <a href="#goldman" class="img-anchor">
@@ -92,8 +92,9 @@
                     class="fa fa-calendar-check-o" aria-hidden="true"></i></a>
         </div>
     </div>
+
     <a name="goldman"></a>
-    <hr>
+
     <hr>
     <div class="row">
         <div class="three columns staff">
@@ -145,6 +146,13 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="offset-by-four columns four columns staff">
+            <a href="procedure.php#get-started" class="sched-appoint">
+                <button>Schedule an appointment</button>
+            </a>
+        </div>
+    </div>
     <a name="jones"></a>
     <hr>
     <div class="row">
@@ -186,6 +194,13 @@
             </ul>
         </div>
     </div>
+    <div class="row">
+        <div class="offset-by-four columns four columns staff">
+            <a href="procedure.php#get-started" class="sched-appoint">
+                <button>Schedule an appointment</button>
+            </a>
+        </div>
+    </div>
     <a name="levine"></a>
     <hr>
     <div class="row">
@@ -220,6 +235,13 @@
                 She has published research articles in basic science and clinical medicine, and presents her research
                 nationally.
             </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="offset-by-four columns four columns staff">
+            <a href="procedure.php#get-started" class="sched-appoint">
+                <button>Schedule an appointment</button>
+            </a>
         </div>
     </div>
     <a name="martinez"></a>
@@ -263,6 +285,13 @@
                     aspects of each patient and providing a warm and individualized approach to the process.
                 </li>
             </ul>
+        </div>
+        <div class="row">
+            <div class="offset-by-four columns four columns staff">
+                <a href="procedure.php#get-started" class="sched-appoint">
+                    <button>Schedule an appointment</button>
+                </a>
+            </div>
         </div>
     </div><a name="smith"></a>
     <hr>
@@ -313,8 +342,8 @@
             </a>
         </div>
     </div>
-    <hr>
-    <hr>
+
+
 
     <!-- the div and main closes after here -->
 <?php include 'footer.php' ?>

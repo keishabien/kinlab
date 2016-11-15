@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/kinlab-modal.css">
 
 </head>
-<body>
+<body onload="init();">
 
 <header>
     <a name="top"></a>
@@ -38,19 +38,19 @@
 <!--                </a>-->
                 <ul class="main-navigation">
 <!--                    <li><a href="index.php">Home</a></li>-->
-                    <li><a href="about.php">Our Mission</a></li>
-                    <li class="submenu"><a href="clients.php">Our Clients</a>
+                    <li><a href="index.php#mission">Our Mission</a></li>
+                    <li class="submenu"><a href="index.php#clients">Our Clients</a>
                         <ul class="sub-navigation">
                             <li><a href="clients.php">Testimonials</a></li>
                         </ul>
                     </li>
-                    <li class="submenu"><a href="staff.php">Our Staff</a>
+                    <li class="submenu"><a href="index.php#staff">Our Staff</a>
                         <ul class="sub-navigation">
-                            <li><a href="#">Introduction</a></li>
-                            <li><a href="#">Meet Our Staff</a></li>
+                            <li><a href="staff.php#intro">Introduction</a></li>
+                            <li><a href="staff.php#ourstaff">Meet Our Staff</a></li>
                         </ul>
                     </li>
-                    <li class="submenu"><a href="contact.php">Contact Us</a>
+                    <li class="submenu"><a href="index.php#contact">Contact Us</a>
                         <ul class="sub-navigation">
                             <li><a href="contact.php#location">Location</a></li>
                             <li><a href="contact.php#message">Message Us</a></li>
@@ -71,8 +71,8 @@
 <!-- all content will be wrapped in this container -->
     <div class="container">
         <span id="totop">
-            <a href="#top" onclick="$('html,body').animate({scrollTop:0},'2000');return false;">
-                <i class="fa fa-angle-up" aria-hidden="true"></i>
+            <a href="#top" onclick="$('html,body').animate({scrollTop: target.offset().top}, 1000);">
+                <i class="fa fa-chevron-up up-arrow" aria-hidden="true"></i>
             </a>
         </span>
 
